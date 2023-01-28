@@ -1,0 +1,13 @@
+WACP to find the size of diffent data types in c?
+#include<stdio.h>
+int main(){
+    int inta;
+    float floata;
+    double doublea;
+    char chara;
+    printf("size of int : %d bytes\n",sizeof(inta));
+    printf("size of float: %d bytes\n",sizeof(floata));
+    printf("size of double: %d bytes\n",sizeof(doublea));
+    printf("size of char : %d bytes\n",sizeof(chara));
+    return 0;
+}
