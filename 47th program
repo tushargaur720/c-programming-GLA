@@ -1,0 +1,18 @@
+// 57. WACP to swap two number by using the pointer and the function ?
+#include<stdio.h>
+void swap(int *p,int *q) 
+{
+int c=*p;
+*p=*q;
+*q=c;
+}
+int main()
+{
+    int a,b;
+    printf("enter the value of a,b:");
+    scanf("%d%d",&a,&b);
+    printf("%d%d before swaping\n",a,b);
+    swap(&a,&b);
+    printf("%d%d after swaping\n",a,b);
+}
+
