@@ -1,0 +1,17 @@
+// 37. write a c progaram to count frequency of any value given by user in a given array?
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter the value of n:");
+    scanf("%d",&n);
+    int a[n],value;
+    int c=0;
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);}
+        scanf("%d",&value);
+        for(int i=0;i<n;i++){
+            if(a[i]==value){
+            c++;}}
+        printf("%d occurs %d times",value,c);
+        return 0;
+}
