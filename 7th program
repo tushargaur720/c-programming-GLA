@@ -1,0 +1,9 @@
+// 6. WACP to print the given number is odd or even .
+#include<stdio.h>
+int main(){
+    int a;
+       printf("enter the value of number:");
+    scanf("%d",&a);
+   (a/2) && (a%2==0) && printf("even");
+   (a/2) && (a%2!=0) && printf("odd");
+    return 0;
