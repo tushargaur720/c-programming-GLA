@@ -1,0 +1,32 @@
+// 29. To check the number given by user is divisible by 7 or not ?
+#include<stdio.h>
+int main(){
+    int n;
+    do{
+        printf("enter the number:");
+        scanf("%d",&n);
+        printf("%d\n",n);
+        if(n%7==0){
+            break;
+        }
+    }while(1);
+    printf("this last number is divisible by 7");
+    return 0;
+}
+
+// alternate method
+#include<stdio.h>
+int main(){
+    int n;
+    do{
+        printf("enter the number:");
+        scanf("%d",&n);
+        printf("%d\n",n);
+        if(n%7==0){
+            printf("Given no. is multiple of 7 \n");
+            break;
+        }
+    }while(n);
+    return 0;
+}
+ 
