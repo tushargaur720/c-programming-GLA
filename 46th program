@@ -1,0 +1,13 @@
+// 54. WACP TO find the sum mof two number by using the function
+#include<stdio.h>
+void sum();
+int main(){
+    sum();
+}
+void sum()
+{
+int a,b;
+scanf("%d%d",&a,&b);
+printf("sum=%d",a+b);
+}
+
