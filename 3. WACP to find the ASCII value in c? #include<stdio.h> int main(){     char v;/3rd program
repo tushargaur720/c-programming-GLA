@@ -1,0 +1,10 @@
+// 3. WACP to find the ASCII value in c?
+#include<stdio.h>
+int main(){
+    char v;//v=character {alphabet may be upper or lower case}
+    printf("enter any character:");
+    scanf("%c",&v);
+    printf("ASCII VALUE : %d",v);
+    return 0;
+}
+
