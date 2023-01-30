@@ -1,0 +1,21 @@
+// 9. WACP to check wheather the given is penodrum or not ?
+#include<stdio.h>
+int main(){
+    int num,rem,temp,sum=0;
+    printf("enter the value of number:");
+    scanf("%d",&num);
+   temp=num; 
+    while(num>0)
+    {
+        rem=num%10;
+        sum=(sum*10)+rem;
+        num/=10;
+    }
+    if(sum==temp)
+    {printf("panodrum num");}
+    
+    else
+    {printf("not panodrum num");}
+    return 0;
+   
+}
