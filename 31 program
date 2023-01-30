@@ -1,0 +1,12 @@
+// 33. To check th e even no. b/w 5 to 50 by using continue?
+#include<stdio.h>
+int main(){
+    for(int i=5;i<=50;i++){
+        if(i%2==1){
+            continue;
+        
+        }  
+        printf("%d\n",i);
+    }
+    return 0;
+}
