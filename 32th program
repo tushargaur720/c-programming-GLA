@@ -1,0 +1,13 @@
+// 34. To print the factorial of a given number by user?
+#include<stdio.h>
+int main(){
+    int n,factorial=1;
+    printf("enter the value of n:");
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--){
+        printf("%d*",i);
+        factorial=i*factorial;
+    }
+    printf("Factorial=%d\n",factorial);
+    return 0;
+}
