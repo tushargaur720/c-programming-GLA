@@ -1,0 +1,10 @@
+// 19.To print the number in floating from 0 to 5.0?
+#include<stdio.h>
+ int main(){
+    for(float i=0;i<=5.0;i=i+2){
+        printf("%f\n",i);
+    }
+    return 0;
+ }
+
+
